@@ -1,0 +1,37 @@
+body {
+    background-color: red; 
+ }
+
+ h1 {
+    background-color: black;
+    color: crimson;
+    margin-top: 0px;
+    text-shadow: 4px 4px 4px red;
+}
+
+#show_sketch {
+    float:right ;
+    margin-right: 5px;
+    margin-top: 2px;
+}
+
+#score {
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+#timer {
+    float: right;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+p {
+    font-size: 25;
+    color: lawngreen;
+}
+
+#sketch_to_be_drawn {
+    font-size: 25px;
+    color: aqua;
+}
