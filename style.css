@@ -35,3 +35,21 @@ p {
     font-size: 25px;
     color: aqua;
 }
+
+canvas{
+    border: 5px dashed greenyellow;
+    border-radius: 30px;
+    margin-top: 50px;
+    animation-name: chanakya;
+    animation-duration:5s ;
+    animation-iteration-count: infinite;
+}
+
+@keyframes chanakya{
+    from{
+        box-shadow: 2px 2px 30px blue;
+    }
+    to{
+        box-shadow: 2px 2px 30px black;
+    }
+}
